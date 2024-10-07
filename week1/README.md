@@ -1,5 +1,5 @@
 # Week 1: Wireshark + dpkt
-## [Slides](https://docs.google.com/presentation/d/136Ypr11F75G9WfbH1vWkKr-sZnsW0-zpPL855_FHc5Q/edit?usp=sharing)
+## [Slides](https://docs.google.com/presentation/d/1bsi8iAYgtfdLyAiSvb6PLUnxZmy7MN6CeaqHT1ccdJU/edit?usp=sharing)
 
 ## Tutorial
 ### Wireshark ([installation](https://www.wireshark.org/download.html), [documentation](https://www.wireshark.org/docs/wsug_html_chunked/))
@@ -39,7 +39,7 @@ dpkt is a Python library that allows you to parse and iterate over packet-captur
 
 #### Sample code
 
-Sample code to get you familiar with the dpkt syntax can be found [here](https://github.com/Haroon96/ecs152a-fall-2023/tree/main/week1/code/dpkt-example.py). The code iterates over a packet capture and prints out the request and response headers from HTTP requests. You can run it using the following syntax where `path_to_pcap_file` is the path to a packet capture.
+Sample code to get you familiar with the dpkt syntax can be found [here](https://github.com/klvijeth/ecs152a-fall-2024/blob/main/week1/code/dpkt-example.py). The code iterates over a packet capture and prints out the request and response headers from HTTP requests. You can run it using the following syntax where `path_to_pcap_file` is the path to a packet capture.
 
 ```python dpkt-example.py path_to_pcap_file```
 

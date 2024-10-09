@@ -1,5 +1,5 @@
 # Week 2: mitmproxy + ICMP
-## [Slides](https://docs.google.com/presentation/d/1vUyNbqYavZbgM2SPJbEWxwJ60Z-ywxdZp5qm539f-7Q/edit?usp=sharing)
+## [Slides](https://docs.google.com/presentation/d/1wqw03hSb1hyH0CuL9vDUlkSpBeyvV4-s_uc6T9hj2eg/edit?usp=sharing)
 
 ## Proxy servers
 

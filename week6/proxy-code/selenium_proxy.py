@@ -14,7 +14,7 @@ chrome_options.add_argument('--ignore-certificate-errors')
 driver = webdriver.Chrome(options=chrome_options)
 
 # do crawling
-proxy.new_har("myhar")
+proxy.new_har("myhar", options={'captureHeaders': True,'captureContent': True, 'captureCookies': True})
 driver.get("http://www.cnn.com")
 
 # write har file

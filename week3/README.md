@@ -1,5 +1,5 @@
 # Week 3: iPerf + Socket Programming
-## [Slides](https://docs.google.com/presentation/d/1tZcDmWeixJttmM3WIbkqZgrDJSVMTp5hfPGky3FIYak/edit?usp=sharing)
+## [Slides](https://docs.google.com/presentation/d/1zotMt9R7hsed6ws7yJmMbPc-K4A3yNFELPnqe7qcos8/edit?usp=sharing)
 
 
 ## iPerf3 ([installation](https://iperf.fr/iperf-download.php), [documentation](https://iperf.fr/iperf-doc.php))

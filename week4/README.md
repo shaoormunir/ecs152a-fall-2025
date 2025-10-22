@@ -1,5 +1,5 @@
 # Week 4: Socket Programming (Selectors + Multithreading)
-## [Slides](https://docs.google.com/presentation/d/1AB5FJzucpvIFSb3GkcKP3CWLpxsQQCh8-ObmwBqWu_g/edit?usp=sharing)
+## [Slides](https://docs.google.com/presentation/d/1PndYVxTHs3kAERvPEXYf1SRjfH2cqpHrNJaLeK-Ga1E/edit?usp=sharing)
 
 
 ## Socket Programming

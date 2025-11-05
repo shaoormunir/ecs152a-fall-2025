@@ -1,4 +1,4 @@
-# Week 6: HAR Files + BrowserMob Proxy + Socket Programming
+# Week 6: HAR Files + BrowserMob Proxy + Socket Programming + Playwright
 ## [Slides](https://docs.google.com/presentation/d/1tpBaRWKzduta7LnJ_cfCYJberFAFSGDITdppDMjuNHY/edit?usp=sharing)
 
 

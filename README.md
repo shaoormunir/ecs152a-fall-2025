@@ -1,4 +1,4 @@
-# ECS 152A Discussions (Fall 2024)
+# ECS 152A Discussions (Fall 2025)
 
 ## TA: Shaoor Munir
 - Please use Canvas for communications

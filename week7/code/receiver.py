@@ -1,10 +1,15 @@
-import random
 import socket
+import random
 
 PACKET_SIZE = 1024
 SEQ_ID_SIZE = 4
 PORT = 5001
 SENDER_PORT = 5000
+
+
+def create_ack(seq_id):
+    return int.to_bytes(seq_id, SEQ_ID_SIZE, byteorder="big", signed=True) + b"ack"
+
 
 # create a udp socket
 with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as udp_socket:
@@ -32,6 +37,13 @@ with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as udp_socket:
             print(f"Message with sequence id: {seq_id} received!")
             if seq_id == -1:
                 break
+
+            if random.random() < 0.2:
+                print(f"Packet with seq id {seq_id} dropped.")
+                continue
+
+            ack_message = create_ack(seq_id)
+            udp_socket.sendto(ack_message, ("localhost", SENDER_PORT))
 
             message_buffer += message
 
